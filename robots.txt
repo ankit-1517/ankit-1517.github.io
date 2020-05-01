@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ankit-1517.github.io/sitemap.xml
+Host: https://ankit-1517.github.io
