@@ -1,0 +1,25 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+#sidebar {
+  /* The theme pins the tagline to a fixed 3rem height, so a long tagline
+     overflows and collides with the nav. Let it grow and give it breathing
+     room above the nav. */
+  .site-subtitle {
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+}
